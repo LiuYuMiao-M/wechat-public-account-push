@@ -37,9 +37,9 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oMX-L5hjbssDzBjNuDhUTvAt4eOY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'aVj5MaV7hWK9zU9BAX-MxuD5LOxvc-act3D0UjJh4N0',
+      useTemplateId: 'Xe9dcV4qTKg_0RB_pEQGtT0aKKq4uMwWUvQcEFALRE8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '01-05',
+      horoscopeDate: '02-09',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       festivals: [
@@ -56,7 +56,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-03-13' },
         // 结婚纪念日
-        // { keyword: 'marry_day', date: '2022-09-09' },
+        // { keyword: 'marry_day', date: '' },
       ],
     },
   ],
