@@ -20,9 +20,6 @@ const USER_CONFIG = {
      /** 每日天气 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: true,
-    /** 节假日 */
-    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    holidaytts: true,
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     birthdayMessage: true,
@@ -42,7 +39,7 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'aVj5MaV7hWK9zU9BAX-MxuD5LOxvc-act3D0UjJh4N0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '01-05',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       festivals: [
@@ -57,7 +54,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-04-13' },
+        { keyword: 'love_day', date: '2022-03-13' },
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
       ],
