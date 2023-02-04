@@ -26,6 +26,8 @@ const USER_CONFIG = {
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     birthdayMessage: true,
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     horoscope: true
@@ -38,7 +40,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oMX-L5hjbssDzBjNuDhUTvAt4eOY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ipXbhAur5zQwFdLAbwoJBIRkleZRousLlfvCSL0j5r8',
+      useTemplateId: 'aVj5MaV7hWK9zU9BAX-MxuD5LOxvc-act3D0UjJh4N0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
