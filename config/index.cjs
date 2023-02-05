@@ -33,13 +33,44 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '媳妇',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oMX-L5nye6jLNB6Zx0OLjzT5-AY8',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '5hHzz6JnaW11K1x1iVXX1qsAsTqOpC2MV3qAPnKROuM',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '02-09',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '媳妇', year: '2000', date: '01-05',
+        },
+        {
+          type: '*生日', name: '老公', year: '2001', date: '01-22',
+        },
+        {
+          type: '节日', name: '恋爱纪念日', year: '2022', date: '04-13',
+        }
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-04-13' },
+        // 结婚纪念日
+        // { keyword: 'marry_day', date: '' },
+      ],
+    },
+    {
+      // 想要发送的人的名字
+      name: '自己',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oMX-L5hjbssDzBjNuDhUTvAt4eOY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'G9lZtpc4XGiEw-ImfskdUtSTKm0FLRlnX1ZrcP_NSdA',
+      useTemplateId: 'j4NmtoV3n0RHenKXiODMRB6pVO4unMmuePsB8-pDoZw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '02-09',
+      horoscopeDate: '02-14',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       festivals: [
