@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'c47b05eed274d37ad5c57cdb4b400285',
 
-  PROVINCE: '江苏',
-  CITY: '苏州',
+  PROVINCE: '浙江',
+  CITY: '杭州',
   
   SWITCH: {
      /** 每日天气 */
